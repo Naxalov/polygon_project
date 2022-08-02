@@ -46,67 +46,77 @@ Sample of Polygon:
 
 ## Example of Square
 
-```python
-square = Square(5)
-is_valid_square = square.is_valid()
-square_perimeter = square.perimeter()
-square_area = square.area()
-
-print("Can it be a square?", is_valid_square)
-# Can it be a square? True
-print("The perimeter of the square is:", square_perimeter)
-# The perimeter of the square is: 20
-print("The area of the square is:", square_area)
-# The area of the square is: 25
+```dart
+square = Square(5);
+is_valid_square = square.is_valid();
+square_perimeter = square.perimeter();
+square_area = square.area();
+print("Can it be a square?");
+print(is_valid_square);
+// can it be a square? True
+print("The perimeter of the square is:");
+print(square_perimeter);
+// the perimeter of the square is: 20
+print("the area of the square is:");
+print(square_area);
+// the area of the square is: 25
 ```
 
 ## Example of Rectangle
 
-```python
-rectangle = Rectangle(4, 7)
-is_valid_rectangle = rectangle.is_valid()
-rectangle_perimeter = rectangle.perimeter()
-rectangle_area = rectangle.area()
-
-print("Can it be a square?", is_valid_rectangle)
-# Can it be a square? True
-print("The perimeter of the rectangle is:", rectangle_perimeter)
-# The perimeter of the rectangle is: 22
-print("The area of the rectangle is:", rectangle_area)
-# The area of the rectangle is: 28
+```dart
+rectangle = Rectangle(4, 7);
+is_valid_rectangle = rectangle.is_valid();
+rectangle_perimeter = rectangle.perimeter();
+rectangle_area = rectangle.area();
+print("Can it be a square?");
+print(is_valid_rectangle);
+// can it be a square? True
+print("The perimeter of the rectangle is:");
+print(rectangle_perimeter);
+// the perimeter of the rectangle is: 22
+print("the area of the rectangle is:");
+print(rectangle_area);
+// the area of the rectangle is: 28
 ```
 
 ## Example of Triangle
 
-```python
-triangle = Triangle(4, 7, 5)
-is_valid_triangle = triangle.is_valid()
-triangle_perimeter = triangle.perimeter()
-triangle_area = triangle.area()
-
-print("Can it be a triangle?", is_valid_triangle)
-# Can it be a triangle? True
-print("The perimeter of the triangle is:", triangle_perimeter)
-# The perimeter of the triangle is: 16
-print("The area of the triangle is:", triangle_area)
-# The area of the triangle is: 9.797958971132712
+```dart
+triangle = Triangle(4, 7, 5);
+is_valid_triangle = triangle.is_valid();
+triangle_perimeter = triangle.perimeter();
+triangle_area = triangle.area();
+print("Can it be a triangle?");
+print(is_valid_triangle);
+// can it be a triangle? True
+print("The perimeter of the triangle is:");
+print(triangle_perimeter);
+// The perimeter of the triangle is: 16
+print("The area of the triangle is:");
+print(triangle_area);
+// The area of the triangle is: 9.797958971132712
 ```
 
 ## Example of Circle
 
-```python
-circle = Circle(4)
-is_valid_circle = circle.is_valid()
-circle_diameter = circle.diameter()
-circle_circumference = circle.circumference()
-circle_area = circle.area()
+```dart
+circle = Circle(4);
+is_valid_circle = circle.is_valid();
+circle_diameter = circle.diameter();
+circle_circumference = circle.circumference();
+circle_area = circle.area();
 
-print("Can it be a circle?", is_valid_circle)
-# Can it be a circle? True
-print("The diameter of the circle is:", circle_diameter)
-# The diameter of the circle is: 8
-print("The circumference of the circle is:", circle_circumference)
-# The circumference of the circle is: 25.132741228718345
-print("The area of the circle is:", circle_area)
-# The area of the circle is: 50.26548245743669
+print("Can it be a circle?");
+print(is_valid_circle);
+// can it be a circle? True
+print("The diameter of the circle is:");
+print(circle_diameter);
+// The diameter of the circle is: 8
+print("The circumference of the circle is:");
+print(circle_circumference);
+// The circumference of the circle is: 25.132741228718345
+print("The area of the circle is:");
+print(circle_area);
+// The area of the circle is: 50.26548245743669
 ```
